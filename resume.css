@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section .head{
+    text-align: center;
+}
+section .content
+{
+    
+    height: 560px;
+    margin-top: 25px;
+
+
+}
+section div .img1{
+
+    height: 435px;
+    margin: 20px;
+    width: 300px;
+    float: left;
+
+}
+section div .img1 img{
+    width: 100%;
+    height: 355px;
+
+}
+section div .para{
+
+    display: inline-block;
+    margin: 20px;
+    width: 821px;
+    height: 495px;
+   
+}
+section div  div .left{
+
+    width: 331px;
+    height: 150px;
+    margin-left: 12px;
+    float: left;
+    
+}
+section div   .right{
+
+    width: 478px;
+    height: 116px;
+    margin-left: 20px;
+    margin-left: 338px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+section div   .para2{
+
+    width: 1034px;
+    /* margin-left: 333PX; */
+    margin-top: 19px;
+    /* flex-wrap: wrap;
+    display: flex; */
+
+}
+section div .para h1{
+    color:#728394;
+}
+

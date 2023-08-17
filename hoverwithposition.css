@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    /* border: 1px solid green; */
+    width: 250px;
+    margin: 50px auto;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 10px 10px 10px 5px rgba(128, 128, 128, 0.396) ;
+    overflow: hidden;
+}
+.card-content{
+    line-height: 34px;
+    /* border: 1px solid red; */
+    padding: 10px;
+    border-radius: 10px;
+}
+i{
+    font-size: 30px;
+}
+.bg{
+    background-color: aqua;
+    width: 100%;
+    height: 0px;
+    transition: all 1s;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0px;
+    /* transition should be given to the class for which we are applying hover property */
+    color: white;
+    line-height:34px;
+}
+.card:hover .bg{
+    height: 100%;
+    padding: 10px;
+    /* transform: translate(0px,px); */
+    
+
+}

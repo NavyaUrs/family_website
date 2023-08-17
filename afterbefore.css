@@ -1,0 +1,14 @@
+h1{
+    color: red;
+    border: 1px solid green;
+    margin: 20px;
+}
+h1::before{
+    content:"S";
+    color:purple;
+
+}
+h1::after{
+    content: "Urs";
+    color: yellow;
+}

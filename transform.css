@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    color: white;
+    margin: 100px;
+    border: 5px groove purple;
+    overflow: hidden;
+
+}
+div img{
+    height: 100%;
+    width: 100%;
+    transition: transform 2s;
+}
+div:hover img{
+    /* transform: rotatey(180deg); */
+    transform: rotate(-360deg);/*to rotate anti clock wise*/
+    /* transform: scale(1.3);
+    transform: translate(0px,-10px); */
+}

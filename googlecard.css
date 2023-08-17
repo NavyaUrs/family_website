@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    width: 100%;
+}
+.card{
+    border: 2px solid gray;
+    width: 247px;
+    height: 283px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 32px;
+}
+.card img{
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 14px;
+    border-radius: 100%;
+    
+}

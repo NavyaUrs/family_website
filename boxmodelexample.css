@@ -1,0 +1,36 @@
+div{
+    background-color: green;
+    height: 100px;
+    width: 500px;
+    margin:50px;
+    border-radius: 20px 40px;
+    box-shadow: 6px 7px 30px 4px purple;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 3px solid purple;
+
+}
+div{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: 3px solid yellow;
+    margin: 100px auto;
+    padding: 20px;
+}
+section{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border:3px solid black;
+    margin: 100px auto;
+    padding: 20px;
+}
+*{
+    border-sizing:border-box;/*when padding is given the height width will change to avoid that changes must add this line*/
+
+}
+

@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color:lightgray;
+}
+html,body{
+    width: 100%;
+}
+nav{
+    background-color: white;
+    padding: 8px 27px;
+    padding-bottom: 25px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+nav ul{
+    display: inline-block;
+    margin-left: 77px;
+    margin-right: 71px;
+}
+nav ul li{
+    display: inline;
+}
+nav .logo{
+    margin-left: 100px;
+    font-style: 35px;
+    font-weight: bold;
+    font-family: calibri;
+    color: black;
+}
+nav ul li a {
+    margin-left: 33px;
+    font-weight: 600;
+    color: rgb(164,160,160);
+}
+nav a{
+    text-decoration: none;
+
+}
+nav .nav-btn{
+    background-color: red;
+    border-radius: 22px;
+    color: white;
+    padding: 10px 20px;
+}

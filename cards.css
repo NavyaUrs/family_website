@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section div .card{
+    border: 1px solid black;
+    display: inline-block;
+    margin: 20px;
+    width: 129px;
+    padding: 4px;
+
+}
+.parent{
+    width: 674px;
+    /* height: 232px; */
+    /* border: 1px solid black; */
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}

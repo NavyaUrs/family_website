@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .amazon-card{
+    border: 1px solid red;
+    width: 342px;
+    margin: 50px auto;
+    padding: 20px;
+
+}
+section div .card{
+    /* border: 1px solid red;
+    margin: 50px; */
+    width: 130px;
+    margin: 10px;
+}
+section div .card img{
+    width: 100%;
+}
+section .card-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.amazon-card a{
+    text-decoration: none;
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+html,body{
+    width: 100%;
+
+}
+.form{
+    /* border: 1px solid black; */
+    height: 400px;
+    background-color: white;
+    display: flex;
+    background-color: rgba(241, 235, 235, 0.39);
+    height: 434px;
+
+}
+section .form-info{
+    border: 1px solid white;
+    /* height: 200px; */
+    width: 16%;
+    line-height: 25px;
+    padding: 25px;
+    margin-top: 35px;
+    background-color: white;
+    margin-left: 133px;
+    border-radius: 17px;
+    
+}
+img{
+    border-radius: 100%;
+}
+section div.forms{
+    /* border: 1px solid red; */
+    /* height: 150px; */
+    width: 60%;
+    /* background-color: white; */
+}
+section div .text{
+    margin-top: 34px;
+    margin-left: 19px;
+    padding: 20px;
+    background-color: white;
+}
+.sub{
+    width: 95%;
+}
+section div div .text1{
+    /* border: 1px solid pink; */
+    height: 50%;
+
+}
+.text1 input{
+    width: 434px;
+    height: 42px;
+    margin-left: 4px;
+    /* background-color: white; */
+}
+.text2 input{
+    width: 895px;
+    height: 42px
+}
+section div div .text2{
+    /* border: 1px solid darkgreen; */
+    height: 50%;
+    margin-top: 28px;
+    margin-left: 5px;
+    /* background-color: white; */
+}
+section div div .text3{
+    /* border: 1px solid yellow; */
+    height: 50%;
+    margin-top: 30px;
+    margin-left: 5px;
+    /* background-color: white; */
+}
+.btn{
+    margin: 14px 402px;
+    background: greenyellow;
+    color: white;
+    padding: 2px;
+}
+.span{
+    margin-left: 22px;
+}
+li{
+    list-style-type: none;
+}
+body{
+    background:rgba(241, 235, 235, 0.39);
+
+}

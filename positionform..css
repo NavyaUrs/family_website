@@ -1,0 +1,26 @@
+
+
+.main{
+    width: 500px;
+    height: 53px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.text{
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    /* margin: 50px auto; */
+
+
+}
+.btn{
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 50px;
+    top: 6px;
+    padding: 10px 15px;
+    border-radius: 11px;
+    box-shadow:0 15px 30px 0 rgba(0, 0, 0, 0.2);
+}

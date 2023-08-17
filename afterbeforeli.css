@@ -1,0 +1,18 @@
+ul{
+    list-style-type: none;
+}
+ul li::before{
+    content: "* ";
+    font-size: 24px;
+    color: green;
+
+}
+/* ul li{
+    list-style-image: url("./truck.jpg");
+} */
+/* reduce the size of the image before use */
+
+/* ul li::before{
+    content: url("./bighorn-sheep-8113311_640.jpg");
+    color:rebeccapurple;
+} */

@@ -1,0 +1,9 @@
+p,div,form{
+    background-color: pink;
+    display: inline;
+
+}
+a,span{
+    background-color: aqua;
+    display: block;
+}

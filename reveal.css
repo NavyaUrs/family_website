@@ -1,0 +1,66 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+}
+section{
+    width: 366px;
+    height: 258px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    transition-delay: 2s;
+    
+}
+section img
+{
+   
+    height: 100%;
+    width: 100%;
+    
+
+
+}
+.child
+{
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color:rgba(0, 255, 255, 0.716);
+    display: flex;
+    justify-content: space-between;
+    transition: height .2s;
+    overflow: hidden;
+}
+.child .content
+{
+    padding: 20px ;
+    width: 50%;
+    height: 100%;
+
+}
+.child .icons
+{
+    padding: 20px;
+    width: 30%;
+    height: 100%;
+    text-align: right;
+}
+.child .icons i{
+    margin-left: 10px;
+}
+section:hover img{
+    transform: translate(0px,-30px);
+}
+
+section:hover .child{
+    height: 35%;
+   
+    
+}

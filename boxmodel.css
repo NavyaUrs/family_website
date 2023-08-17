@@ -1,0 +1,22 @@
+.div1
+{
+background-color: green;
+font-size: 50px;
+font-weight: bold;
+width: 200px;
+border:3px groove blue; /*instead of groove can use solid,dotted,inset,double,dashed */
+padding: 20px;
+outline: 5px solid orange;
+outline-offset: 2px;/* to provide the space between outline and border */
+}
+.div2{
+    background-color: green;
+font-size: 50px;
+font-weight: bold;
+width: 200px;
+border:3px inset blue; /*instead of groove can use solid,dotted,inset,double,dashed */
+padding: 20px 60px;/*top & bottom 20px, right left 60px*/
+outline: 5px solid orange;
+/* outline-offset: 2px; */
+
+}

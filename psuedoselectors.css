@@ -1,0 +1,34 @@
+/* section h1:first-child{
+    color: red;
+} */
+/* section h1:last-child{
+    color: red;
+} */
+/* section h1:nth-child(odd){
+    color: red;
+} */
+
+/* section h1:nth-last-child(3){
+    color: red;
+} */
+/* p::first-letter{
+    color: red;
+} */
+/* p::first-line{
+    color: red;
+} */
+/* input::placeholder{
+    color:red;
+    text-align: center;
+    padding: 10px;
+} */
+/* ::selection{
+    background-color: red;
+    color: yellow;
+} */
+input:valid{
+    border: 2px solid green;
+}
+input:invalid{
+    border:2px solid red;
+}

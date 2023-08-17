@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+html,body{
+width: 100%;
+}
+.banner{
+    background-color: red;
+    padding: 20px;
+    height: 400px;
+    background-image:linear-gradient(rgba(0,0,0,0.64),rgba(0,0,0,0.64)) url("./bighorn-sheep-8113311_640.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+
+}
+.banner .banner-content{
+    text-align: center;
+    width: 750px;
+    margin: 80px auto;
+    color: white;
+}
+.banner .banner-content p{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 19px;
+    
+}
+.banner .banner-content a{
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+html,body{
+width: 100%;
+}
+.bg-card{
+    width: 300px;
+    border: 1px solid gray;
+    margin: 50px auto;
+    background-color: red;
+    height: 400px;
+    border-radius: 16px;
+
+}
+.bg-card h3{
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+div div.content{
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+}
+div .content .btn
+{
+    margin-left: 22px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    margin-top: 17px;
+    padding: 7px;
+}
