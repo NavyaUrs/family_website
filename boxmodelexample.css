@@ -30,7 +30,7 @@ section{
     padding: 20px;
 }
 *{
-    border-sizing:border-box;/*when padding is given the height width will change to avoid that changes must add this line*/
+    box-sizing: border-box;/*when padding is given the height width will change to avoid that changes must add this line*/
 
 }
 
